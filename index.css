@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Summer";
+    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/Summer%20Font%20Regular.woff);
+  }
+
+  @font-face {
+    font-family: "Summer Bold";
+    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/Summer%20Font%20Bold.woff);
+  }
+
+  :root {
+    --white: #fff;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+  }
+
+  input,
+  button {
+    font-family: inherit;
+    font-size: 100%;
+    background: none;
+  }
+
+  [type="checkbox"] {
+    position: absolute;
+    left: -9999px;
+  }
+
+  button,
+  label {
+    cursor: pointer;
+  }
+
+  ol {
+    list-style: none;
+  }
+
+  body {
+    font: 28px/1.2 "Summer";
+    margin: 1.5rem 0;
+  }
