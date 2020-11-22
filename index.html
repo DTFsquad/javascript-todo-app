@@ -7,7 +7,33 @@
     <symbol id="stats" viewBox="0 0 998.06 602.62" preserveAspectRatio="none">...</symbol>
 </svg>
 <div class="container">
-    <form class="todo-form">...</form>
-    <div class="todo-stats">...</div>
+    <form class="todo-form">
+        <div class="form-wrapper">
+            <input type="text" name="name" autofocus>
+            <svg>
+                <use xlink:href="#input"></use>
+            </svg>
+        </div>
+        <div class="form-wrapper">
+            <button type="submit">Add new task</button>
+            <svg>
+                <use xlink:href="#button"></use>
+            </svg>
+        </div>
+    </form>
+    <div class="todo-stats">
+        <div class="total-tasks">
+            Total Tasks: <span>0</span>
+        </div>
+        <div class="completed-tasks">
+            Completed Tasks: <span>0</span>
+        </div>
+        <div class="remaining-tasks">
+            Remaining Tasks: <span>0</span>
+        </div>
+        <svg>
+            <use xlink:href="#stats"></use>
+        </svg>
+    </div>
     <ol class="todo-list"></ol>
 </div>
